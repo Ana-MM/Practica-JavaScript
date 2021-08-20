@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validación DNI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2 class="title">Introduce tu DNI</h2>
+    <form class="form" id="FormDNI">
+
+        <label class="labelDNI" for="DNINumero">Número DNI:</label>
+        <input type="text" class="inputDNI" id="numeroDNI" name="DNINumero">
+
+        <label class="labelDNI" for="DNILetra" id="DNILetra">Letra DNI:</label>
+        <input type="text" class="inputDNI" id="letraDNI" name="letraDNI">
+
+        <input type="button" id="button" value="Enviar">
+
+    </form>
+    <div class="resultadoLetra ocultar" id="resultadoLetra">
+        <h1>El resultado de la letra es:</h1>
+        <div id="letra" class="letra">Letra DNI</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
